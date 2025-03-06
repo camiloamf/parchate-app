@@ -35,7 +35,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     try {
         await transporter.sendMail({
             from: "camiloamf22@gmail.com",
-            to: "camiloamf@hotmail.com, camiloamf22@gmail.com",
+            to: "DIGITAL@MARABUNTA.CO, INFO@MARABUNTA.CO",
             subject: `Prueba Técnica Full Stack Parchate, ${name}`,
             text: `Correo: ${email}\n\nMensaje:\n${message}`,
         });
