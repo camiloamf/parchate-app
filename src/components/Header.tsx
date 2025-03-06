@@ -47,7 +47,7 @@ export default function Header() {
             transition={{ duration: 0.5 }}
             className="fixed top-0 left-0 w-full h-[45vh] bg-white flex flex-col justify-center items-center z-40 shadow-lg rounded-b-[30px] md:hidden"
           >
-            <ul className="text-center text-black space-y-6">
+            <ul className="text-center text-black mt-12 space-y-6">
               <li>
                 <Link href="/" onClick={() => setOpen(false)}>
                   Inicio
